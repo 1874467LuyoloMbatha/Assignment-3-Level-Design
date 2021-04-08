@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbce0ee5e83dc164aa2405fa2d5c7d56, type: 3}
+  m_Name: grassWoman
+  m_EditorClassIdentifier: 
+  name: grassWoman
+  description: 
+  attack: 49
+  defense: 49
+  speed: 45
+  HP: 46
+  sAttack: 65
+  sDefense: 40
+  type1: 3
+  type2: 4
+  frontVeiw: {fileID: 21300000, guid: 6447f9bcba14bad4d856e1dcae871e17, type: 3}
+  backVeiw: {fileID: 21300000, guid: 6447f9bcba14bad4d856e1dcae871e17, type: 3}
+  Moves2BLearned:
+  - moveBase: {fileID: 11400000, guid: fdf78e57c5c7c964a8be0c484d0fcf20, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 754ef243d6006684fbe3b1f3ad6674ca, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 6d52a53ee14e1e448aa8028a1636a52c, type: 2}
+    level: 1
